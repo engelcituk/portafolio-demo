@@ -11,24 +11,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-content">
+                <img src="./img/logo.png" alt="Logo muy cool" width="70">
+                <nav class="menu" aria-label="main-navigation">
+                    <ul>
+                        <li>
+                            <a class="active" href="#main">Hola</a>
+                        </li>
+                        <li>
+                            <a href="#project">Proyectos</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Hablemos</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="button">Curriculum</button>
+            </div>
+        </div>
+    </header>
     <div class="wrapper">
-        <header class="header">
-            <img src="./img/logo.png" alt="Logo muy cool" width="70">
-            <nav class="menu" aria-label="main-navigation">
-                <ul>
-                    <li>
-                        <a class="active" href="#main">Hola</a>
-                    </li>
-                    <li>
-                        <a href="#project">Proyectos</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Hablemos</a>
-                    </li>
-                </ul>
-            </nav>
-            <button class="button">Curriculum</button>
-        </header>
         <section aria-label="main" class="hero" id="main">
             <div class="hero-image">
                 <img src="./img/user.png" alt="" width="338" height="330">
@@ -48,11 +52,11 @@
                 <a href="#" class="button">Descargar Curriculum</a>
             </div>
         </section>
-        <div class="testimony">
-            <div class="testimony-image">
+        <div class="project" id="project">
+            <div class="project-image">
                 <img src="./img/1.png" alt="">
             </div>
-            <div class="testimony-description">
+            <div class="project-description">
                 <a class="title" target="_blank" href="https://leonidasesteban.com/">LeonidasEsteban</a>
                 <p>Accede a más de 120 proyectos que te ayudarán a mejorar 
                 tus habilidades como desarrollador Front-End.</p>
@@ -61,11 +65,11 @@
             </div>
         </div>
 
-        <div class="testimony">
-            <div class="testimony-image">
+        <div class="project">
+            <div class="project-image">
                 <img src="./img/2.png" alt="">
             </div>
-            <div class="testimony-description">
+            <div class="project-description">
                 <a class="title" target="_blank" href="https://leonidasesteban.com/">LeonidasEsteban</a>
                 <p>Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, programas de televisión, videos y más oficiales de Marvol.</p>
                 <a target="_blank" href="#" class="button is-secondary">Ver código</a>
@@ -73,11 +77,11 @@
             </div>
         </div>
 
-        <div class="testimony">
-            <div class="testimony-image">
+        <div class="project">
+            <div class="project-image">
                 <img src="./img/3.png" alt="">
             </div>
-            <div class="testimony-description">
+            <div class="project-description">
                 <a class="title" target="_blank" href="https://leonidasesteban.com/">LeonidasEsteban</a>
                 <p>Películas y series ilimitadas y mucho más.
                 Disfruta donde quieras. Cancela cuando quieras.</p>
@@ -103,7 +107,7 @@
                 <button class="button" type="submit">Enviar mensaje</button>
             </div>
         </form>
-        <footer class="footer">
+        <footer class="footer" id="contact">
             <div class="footer-content">
                 <div class="footer-logo">
                     <img src="./img/logo.png" alt="Logo muy cool" width="70">
